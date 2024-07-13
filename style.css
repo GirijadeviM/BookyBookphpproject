@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+ body{
+    font-family: sans-serif;
+    min-height: 100%;
+    color: #555;
+ }
+  
+ 
+ 
+ /* HEADER RULES ------------------ */
+ 
+ /* header h1{} */
+  header .bottom-left {
+       
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:500px;
+        color:rgb(211, 189, 207);
+        font-weight: bolder;
+        font-size: 49px;
+        font-family:sans-serif;
+
+      } 
+  
+ .headerimg{
+    width:100%;
+    position:absolute;
+    padding-top:0px;
+    z-index : -1;
+    background-position:center;
+ }
+  
+ /* MAIN SECTION ------------------ */
+ main{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ main .left{
+    border-right: thin solid #d4d4d4;
+    padding-right: 20px;
+ }
+ main .section-title{
+    font-size: 22px;
+    margin-bottom: 30px;
+ }
+ main .left a{
+    display: block;
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 10px;
+ }
+ main .left a:hover{
+    text-decoration: underline;
+ }
+  
+ /* main .right{} */
+ main .right .product{
+    display: grid;
+     grid-template-columns: auto 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+ }
+ /* main .right .product-left{} */
+ main .right .product-left img{
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+ }
+ /* main .right .product-right{} */
+ main .right .product-right .title{
+    font-weight: bold;
+    font-size: 18px;
+ }
+ main .right .product-right .title a{
+    text-decoration: none;
+    color: #555;
+    line-height: 26px;
+ }
+ main .right .product-right .title a:hover{
+    text-decoration: underline;
+ }
+ main .right .product-right .description{
+    margin-top: 10px;
+ }
+ main .right .product-right .price{
+    font-size: 24px;
+    margin-top: 30px;
+    color: darkred;
+ }
+ main .right .product-right button{
+    display: block;
+    border: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border: thin solid #d4d4d4;
+ }
+  
+ /* FOOTER RULES  */
+ footer{
+    background-color: #333;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
+ main .right  .product-right .btnadd{
+   color:white;
+    background-color:rgb(6, 6, 245);
+    font-size:15px;
+    border:1px solid rgb(13, 12, 15);
+    border-radius:20px;
+   padding:14px 20px 14px 20px;
+ }
+ 
+ /* sigin styling*/
